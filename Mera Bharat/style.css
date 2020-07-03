@@ -1,0 +1,159 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: White;
+}
+.caption {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+}
+.border {
+  
+  
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 0px;
+}
+main{
+  width: 100%;
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color:white;
+
+}
+section h3{
+  font-size: 45px;
+  font-weight: 200;
+  letter-spacing:3px;
+  text-shadow: 1px 1px 3px Black;
+}
+
+.cd-logo , .kitchen1 , .ingredient , .process , .note , .nutri , .thank{
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: f7f7ee;
+  background-size: cover;
+  min-height: 100%;
+  background-attachment:fixed;
+  width: 100%;
+
+
+}
+.kitchen1{
+  background-image: url("https://static.toiimg.com/thumb/msid-53907331,width-748,height-499,resizemode=4,imgsize-170833/Prayag-Ghat-Varanasi.jpg");
+  min-height: 100%;
+  background-size: auto;
+
+
+}
+.process{
+  background-image: url("https://www.india-briefing.com/news/wp-content/uploads/2018/04/India-Brefing-India%E2%80%99s-Tourism-Sector-Dynamic-Market-Sees-New-Verticals-Growing-FDI.jpg");
+  min-height: 100%;
+  background-size: auto;
+
+
+}
+.note{
+  background-image: url("https://indiator.com/tourist-places/wp-content/uploads/2018/03/20.jpg");
+  min-height: 100%;
+  background-size: auto;
+
+
+}
+.nutri{
+  background-image: url("https://1.bp.blogspot.com/-G6mW9t3kCm4/XuncwUflshI/AAAAAAAAAWk/1NpyLei4_Owmd2k3G5AOaA2ieSmhVAQWgCK4BGAsYHg/w640-h402/Akshardham-New_Delhi.jpg");
+  min-height: 100%;
+  background-size: auto;
+
+
+}
+.thank{
+  background-image: url("https://thumbs.dreamstime.com/b/famous-places-india-collage-photos-180834557.jpg");
+  min-height: 100%;
+  background-size: auto;
+
+
+
+}
+nav{
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  background-color: rgba(0,0,0,0.4);
+  color:white;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+nav.logo{
+  width: 25%;
+  padding-left: 30px;
+  text-align: center;
+
+}
+nav.menu{
+  width:40%;
+  display: flex;
+  justify-content: space-around;
+}
+nav .menu a{
+  width: 25%;
+  text-decoration: none;
+  color: white;
+  align-items: center;
+}
+.ingredient{
+  background-image: url("https://2.bp.blogspot.com/-4y5eTt81h8Q/WFpc0C47wcI/AAAAAAAAClg/27RwNS6N01Io3a7NsLXxeFqrSah_mxhWACLcB/s1600/Golden%2BTemple%2BHD%2BWallpaper%2B1366x768.jpg");
+  min-height: 100%;
+  background-size: auto;
+  padding-top: 10px;
+
+
+}
+
+.cd-logo {
+  background-image:url("https://www.india-tourism.net/images/01.jpg");
+  min-height: 100%;
+  
+  width: 100%;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: white;
+  text-align:center
+}
+
+.textSection {
+  background-color:linear-gradient(rgba(0,0,0,0.4));
+  background-color: #f5bf2a;
+  padding:50px 80px;
+  text-shadow: 1px 1px 1px 2px black;
+}
+.change_content:after{
+  content:"";
+  animation: changetext 8s infinite linear;
+  color: #00b894;
+}
+
+@keyframes changetext{
+  
+  0%{content:"Agra";}
+  20%{content:"Varanasi";}
+  35%{content:"Goa";}
+   60%{content:"Kerala";}
+  80%{content:"Ladakh";}
+  100%{content:"Delhi";}
+}
+  
+
+
+}
